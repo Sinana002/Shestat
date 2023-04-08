@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+	--primary-color: #d63031;
+	--secondary-color: #636e72;
+	--font: 'Poppins', sans-serif;
+}
+*{ 
+	margin: 0; 
+	padding: 0; 
+	border: none; 
+	outline: none; 
+	text-decoration: none; 
+	box-sizing: border-box; 
+	font-family: "Poppins", sans-serif; 
+  } 
+  .container{ 
+	width: 1100px; 
+	margin: auto; 
+	}
+	.container .btn {
+		width: 100px;
+		height: 25px;
+
+
+		top:100%;
+		text-align: center;
+		border: none;
+		border-radius: 50px;
+		background: #db5a63;
+		color: #fff;
+		font-weight: 600;
+		margin:10px 0px;
+		text-transform: uppercase;
+		cursor: pointer;
+		}
+	
+  
+  
+  
+
+
+
+.banner{
+	background: url("healthy periods.jpg");
+	background-color: #ce8c8c;
+	background-size:auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 85vh;
+}
+
+.intro{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: white;
+}
+
+.intro p{
+	font-size: 2.5rem;
+	width: 5%;
+
+}
+
+.intro h2{
+	font-size: 1rem;
+}
+
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+.card{
+	width: 33.3%;
+	height: 300px;
+	display: flex;
+	justify-content:space-around;
+	flex-direction: column;
+	align-items: center;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    padding:50px , 50px;
+    right:40%;
+    left:90%;
+    top:100%;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background: #db5a63;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    padding:50px , 50px;
+    right:40%;
+    left:90%;
+    top:100%;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    color: #db5a63;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card:hover{
+	top: auto;
+	border: 2px solid rgb(16, 15, 15);
+}
+
+
